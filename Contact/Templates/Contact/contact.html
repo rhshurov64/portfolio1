@@ -1,0 +1,82 @@
+{% extends 'Home/base.html' %}
+
+{% block tittle %}
+Contact
+{% endblock %}
+
+{% block content %}
+
+<h4 style="margin: 10px; margin-bottom: 25px;">Feel Free to Contact -</h4>
+<div class="container" style="margin: 10px 0px 10px 5px;">
+    <div class="row">
+        <div class="col-8">
+            
+            <form>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="">First and last name</span>
+                    </div>
+                    <input type="text" class="form-control">
+                    <input type="text" class="form-control">
+                </div>
+                <br>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                    </div>
+                    <input type="email" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <br>
+
+                <div class="input-group mb-3">
+                    
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Text"></textarea>
+                </div>
+
+                <br>
+                <button style="margin-left: 300px;" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+             
+            
+
+        </div>
+        <div class="col-8"></div>
+    </div>
+</div>
+<br><br>
+
+
+
+
+<address style="text-align: center;">
+    <hr>
+    <h4>Address</h4>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h5>Present Address</h5>
+                <p>Sector-10,Uttara</p> 
+                <p>Dhaka, Bangladesh</p>
+                <p>Phone No: 01945577185</p>
+                <p>Email: shurovmohammad@gmail.com</p>
+    
+            </div>
+            <div class="col-6">
+                <h5>Permanent Address</h5>
+                <p>Palash,Narsingdi</p> 
+                <p>Dhaka, Bangladesh</p>
+                <p>Phone No: 01945577185</p>
+                <p>Email: shurovmohammad@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    
+    
+</address>
+
+
+                
+{% endblock %} 
